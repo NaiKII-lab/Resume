@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="md:col-span-3 space-y-4 text-center md:text-left">
         <div className="space-y-2">
           <h1 className="text-5xl font-extrabold tracking-tighter bg-gradient-to-b from-white to-zinc-500 bg-clip-text text-transparent">
-            Narupol Darawan
+            Naruepol Darawan
           </h1>
           <p className="text-xl text-zinc-500">
             Full-Stack Developer (Laravel 🤝 Next.js)
