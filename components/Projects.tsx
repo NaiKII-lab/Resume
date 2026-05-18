@@ -6,9 +6,9 @@ export default function Projects() {
       tags: ["Laravel", "MySQL", "TailwindCSS", "Git"],
     },
     {
-      title: "Job Seeking & Messaging Platform",
-      description: "ออกแบบระบบหางานพร้อมระบบ Chat สื่อสารแบบเรียลไทม์ระหว่างผู้สมัครและบริษัท เน้นการออกแบบโครงสร้าง ER Diagram และ DFD ที่ซับซ้อน",
-      tags: ["Next.js", "TypeScript", "TailwindCSS"],
+      title: "Online Job Market",
+      description: "ระบบตลาดงานออนไลน์ที่เชื่อมโยงนายจ้างและผู้หางาน มีฟีเจอร์การสมัครงาน การจัดการโปรไฟล์ และระบบแจ้งเตือน",
+      tags: ["PHP", "MySQL", "Bootstrap"],
     }
   ];
 

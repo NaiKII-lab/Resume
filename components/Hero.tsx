@@ -41,7 +41,7 @@ export default function Hero() {
         </p>
 
         <div className="flex space-x-5 pt-3 justify-center md:justify-start">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
+          <a href="https://github.com/NaiKII-lab" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
             <GitHubIcon className="w-7 h-7" />
           </a>
           <a href="mailto:nin0821553368@gmail.com" className="text-zinc-400 hover:text-white transition-colors">
