@@ -21,6 +21,7 @@ export default function About() {
           <div className="space-y-2.5 text-xs">
             <p><span className="text-zinc-500">ชื่อ:</span> นายนฤพล ดาระวัลย์</p>
             <p><span className="text-zinc-500">ชื่อเล่น:</span> นาย</p>
+            <p><span className="text-zinc-500">อายุ:</span> 23 ปี</p>
             <p><span className="text-zinc-500">ตำแหน่ง:</span> Full-Stack Developer</p>
             <p><span className="text-zinc-500">ความสนใจ:</span> Web Application, System Design</p>
             <p><span className="text-zinc-500">ที่อยู่:</span> นครราชสีมา, ประเทศไทย</p>
