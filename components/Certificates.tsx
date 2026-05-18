@@ -9,14 +9,19 @@ const AwardIcon = ({ className }: { className?: string }) => (
 export default function Certificates() {
   const certificates = [
     {
-      title: "Basic Web Development Certificate",
-      issuer: "Your Training Center / University",
+      title: "User Experience (UX) and User Interface (UI) Design Digital Manpower Development Institute, Department of Skill Development DSD Online Training Website Program",
+      issuer: "กรมพัฒนาฝีมือแรงงาน กระทรวงแรงงาน",
       year: "2025",
     },
     {
-      title: "Laravel Framework Masterclass",
-      issuer: "Online Course Platform",
-      year: "2024",
+      title: "Web Development with HTML and CSS",
+      issuer: "Chulalongkorn University",
+      year: "2025",
+    },
+    {
+      title: "Getting to Know Al and ML",
+      issuer: "Chulalongkorn University",
+      year: "2025",
     }
   ];
 

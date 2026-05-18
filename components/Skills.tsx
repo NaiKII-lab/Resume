@@ -2,7 +2,7 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "Backend & Database",
-      skills: ["PHP", "Laravel", "MySQL", "RESTful APIs"],
+      skills: ["PHP", "Laravel", "MySQL"],
     },
     {
       title: "Frontend Development",
@@ -10,7 +10,7 @@ export default function Skills() {
     },
     {
       title: "Tools & System Design",
-      skills: ["Git / GitHub", "Docker", "ER Diagram", "DFD Level 2"],
+      skills: ["Git / GitHub", "Docker", "ER Diagram", "DFD"],
     },
   ];
 
