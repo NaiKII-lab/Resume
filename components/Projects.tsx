@@ -1,13 +1,23 @@
+interface ProjectItem {
+  title: string;
+  subtitle: string;
+  description: string;
+  tags: string[];
+  link: string;
+}
+
 export default function Projects() {
-  const projects = [
+  const projects: ProjectItem[] = [
     {
-      title: "Government Travel Recording System",
-      description: "ระบบบันทึกและจัดการข้อมูลการเดินทางราชการ ช่วยลดความซ้ำซ้อนของเอกสารและเพิ่มความรวดเร็วในการตรวจสอบข้อมูล",
-      tags: ["Laravel", "MySQL", "TailwindCSS", "Git"],
-      link: "https://github.com/NaiKII-lab/odpc9_recording_system"
+      title: "Government Travel Recording",
+      subtitle: "odpc9_recording_system",
+      description: "ระบบบันทึกและจัดการข้อมูลการเดินทางไปราชการ พัฒนาโครงสร้างหลังบ้านด้วย Laravel เชื่อมต่อฐานข้อมูล MySQL ออกแบบ Database Schema เพื่อจัดเก็บข้อมูลอย่างเป็นระบบ มีการวิเคราะห์กระบวนการไหลของข้อมูลด้วย DFD Level 2 และควบคุมสภาพแวดล้อมระบบด้วย Docker",
+      tags: ["PHP", "Laravel", "MySQL", "Docker", "Database Design"],
+      link: "https://github.com/NaiKII-lab/odpc9_recording_system" 
     },
     {
       title: "Online Job Market",
+      subtitle: "Online-Job-Market-website",
       description: "ระบบตลาดงานออนไลน์ที่เชื่อมโยงนายจ้างและผู้หางาน มีฟีเจอร์การสมัครงาน การจัดการโปรไฟล์ และระบบแจ้งเตือน",
       tags: ["PHP", "MySQL", "Bootstrap"],
       link: "https://github.com/NaiKII-lab/Online-Job-Market-website"
